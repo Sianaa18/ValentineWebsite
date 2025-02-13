@@ -1,7 +1,7 @@
 const yesBtn = document.querySelector(".yes-btn");
 const noBtn = document.querySelector(".no-btn");
 const question = document.querySelector(".question");
-const image = document.querySelector(".JPG");
+const image = document.querySelector(".jpg");
 
 // Change text and gif when the Yes button is clicked
 yesBtn.addEventListener("click", () => {
@@ -10,6 +10,7 @@ yesBtn.addEventListener("click", () => {
 
     // Hide the No button
     noBtn.style.display = "none";
+    yesBtn.style.display = "none";
 });
 
 // Make the No button move randomly on hover
