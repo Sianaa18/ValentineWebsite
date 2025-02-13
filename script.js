@@ -2,16 +2,24 @@ const yesBtn = document.querySelector(".yes-btn");
 const noBtn = document.querySelector(".no-btn");
 const question = document.querySelector(".question");
 const image = document.querySelector(".image");
-const audio = new Audio("blue.mp3");
+const playVideoBtn = document.querySelector(".play-video-btn"); 
+const videoContainer = document.querySelector(".video-container");
+const videoPlayer = document.querySelector("#video-player");
 
 // Change text and gif when the Yes button is clicked
 yesBtn.addEventListener("click", () => {
     // Hide the No button
     noBtn.style.display = "none";
     yesBtn.style.display = "none";
-    question.innerHTML = "Yay! I knew it😊. Loving you is BLUE💙";
-    image.src = "IMG_2.JPG";
-    audio.play();
+    question.innerHTML = "Yay! I knew it😊";
+    image.src = "IMG.JPG";
+    playVideoBtn.style.display = "inline-block";
+});
+
+// Show and play the video when the Play Video button is clicked
+playVideoBtn.addEventListener("click", () => {
+    videoContainer.style.display = "block"; 
+    videoPlayer.play(); 
 });
 
 // Make the No button move randomly on hover
