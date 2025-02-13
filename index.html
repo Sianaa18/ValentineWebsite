@@ -3,51 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Will You Be My Valentine?</title>
-  <style>
-    body {
-      background: #ffe4e1;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      font-family: 'Arial', sans-serif;
-      color: #b22222;
-      text-align: center;
-    }
-    .card {
-      padding: 2rem;
-      background: #fff;
-      border-radius: 20px;
-      box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
-    }
-    button {
-      background: #ff69b4;
-      color: white;
-      padding: 0.5rem 1rem;
-      border: none;
-      border-radius: 10px;
-      cursor: pointer;
-      font-size: 1rem;
-    }
-    button:hover {
-      background: #ff1493;
-    }
-  </style>
+  <title>Random No Button</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="card">
-  <h1>Will You Be My Valentine? 💖</h1>
-
-  <!-- Image -->
-  <img src="IMG_2603.JPG" alt="Cute Valentine's image" width="300">
-
-  <!-- Video -->
-  <iframe width="560" height="315" 
-    src="https://www.youtube.com/embed/Bag1gUxuU0g" 
-    title="YouTube video player" frameborder="0" 
-    allowfullscreen></iframe>
-  <button onclick="alert('Yay! khoku I love you! 💕')">Yes!</button>
+<div class="wrapper">
+  <h2 class="question">Do you love me?</h2>
+  <img class="gif" alt="gif" src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbjJvdWZzYXc1NGJ6aGp1cDE3b2dyNnVzOGN1andkMjVrMmRzeGwwZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3OhXBaoR1tVPW/giphy.gif" />
+  <div class="btn-group">
+    <button class="yes-btn">Yes</button>
+    <button class="no-btn">No</button>
   </div>
+</div>
+<script src="script.js"></script>
 </body>
 </html>
