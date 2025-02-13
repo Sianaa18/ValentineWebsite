@@ -1,12 +1,12 @@
 const yesBtn = document.querySelector(".yes-btn");
 const noBtn = document.querySelector(".no-btn");
 const question = document.querySelector(".question");
-const gif = document.querySelector(".gif");
+const image = document.querySelector(".JPG");
 
 // Change text and gif when the Yes button is clicked
 yesBtn.addEventListener("click", () => {
     question.innerHTML = "I love you, Khongor<3";
-    gif.src = "IMG_2550.JPG";
+    image.src = "IMG_2550.JPG";
 
     // Hide the No button
     noBtn.style.display = "none";
