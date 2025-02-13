@@ -8,11 +8,18 @@
 </head>
 <body>
 <div class="wrapper">
-  <h2 class="question">Will You Be My Valentine? 💖</h2>
-  <img class="image" src="IMG_1.JPG" alt="image" width="300">
+  <h2 class="question">Will You Be My Valentine?</h2>
+  <img class="gif" alt="gif" src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbjJvdWZzYXc1NGJ6aGp1cDE3b2dyNnVzOGN1andkMjVrMmRzeGwwZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3OhXBaoR1tVPW/giphy.gif" />
   <div class="btn-group">
     <button class="yes-btn">Yes</button>
     <button class="no-btn">No</button>
+    <button class="play-video-btn" style="display: none;">Play Video</button>
+  </div>
+  <div class="video-container" style="display: none; text-align: center; margin-top: 20px;">
+    <video id="video-player" width="400" controls>
+        <source src="video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
   </div>
 </div>
 <script src="script.js"></script>
