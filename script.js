@@ -5,11 +5,10 @@ const image = document.querySelector(".JPG");
 
 // Change text and gif when the Yes button is clicked
 yesBtn.addEventListener("click", () => {
-    question.innerHTML = "Being with you is my biggest blessing. I love you.";
-    image.src = "IMG_2550.JPG";
-
     // Hide the No button
     noBtn.style.display = "none";
+    question.innerHTML = "Being with you is my biggest blessing. I love you.";
+    image.src = "IMG_2550.JPG";
 });
 
 // Make the No button move randomly on hover
