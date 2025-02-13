@@ -6,8 +6,8 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: linear-gradient(135deg, #1976D2, #1E88E5);
-    color: #E3F2FD;
+    background: linear-gradient(135deg, #BBDEFB, #90CAF9);
+    color: #0D47A1;
 }
 
 .wrapper {
@@ -15,17 +15,17 @@ body {
     width: 90%;
     max-width: 500px;
     text-align: center;
-    background: #1565C0;
+    background: #E3F2FD;
     padding: 30px 20px;
     border-radius: 15px;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
 }
 
 .question {
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 20px;
-    color: #E3F2FD;
+    color: #0D47A1;
 }
 
 .gif {
@@ -33,7 +33,7 @@ body {
     height: auto;
     margin-bottom: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .btn-group {
@@ -57,24 +57,24 @@ button:focus {
 }
 
 .yes-btn {
-    background-color: #0288D1;
+    background-color: #64B5F6;
     color: white;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .yes-btn:hover {
-    background-color: #0277BD;
+    background-color: #42A5F5;
     transform: scale(1.05);
 }
 
 .no-btn {
     position: absolute;
-    background-color: #D32F2F;
+    background-color: #E57373;
     color: white;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .no-btn:hover {
-    background-color: #B71C1C;
+    background-color: #EF5350;
     transform: scale(1.05);
 }
