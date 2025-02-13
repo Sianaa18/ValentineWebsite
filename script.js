@@ -12,7 +12,7 @@ yesBtn.addEventListener("click", () => {
     noBtn.style.display = "none";
     yesBtn.style.display = "none";
     question.innerHTML = "Yay! I knew it😊";
-    image.src = "IMG_1.JPG";
+    image.style.display = "none";
     playVideoBtn.style.display = "inline-block";
 });
 
