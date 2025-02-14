@@ -1,7 +1,7 @@
 const yesBtn = document.querySelector(".yes-btn");
 const noBtn = document.querySelector(".no-btn");
 const question = document.querySelector(".question");
-const image = document.querySelector(".image");
+const gif = document.querySelector(".gif");
 const playVideoBtn = document.querySelector(".play-video-btn"); 
 const videoContainer = document.querySelector(".video-container");
 const videoPlayer = document.querySelector("#video-player");
@@ -11,8 +11,8 @@ yesBtn.addEventListener("click", () => {
     // Hide the No button
     noBtn.style.display = "none";
     yesBtn.style.display = "none";
-    question.innerHTML = "Yay! I knew it😊";
-    image.style.display = "none";
+    question.innerHTML = "Yeay! Hairaa, Love juu 😊";
+    gif.src = "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNXh4dTZnYThleXI3dHg4NWw1Y3NobmJjbng4N25qcWprN2syeHZ0dyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/9d3LQ6TdV2Flo8ODTU/giphy.gif";
     playVideoBtn.style.display = "inline-block";
 });
 
